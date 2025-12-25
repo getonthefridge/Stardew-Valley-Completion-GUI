@@ -1,0 +1,82 @@
+Image,Name,Description,Ingredients,Energy / Health,Buff(s),Buff Duration,Recipe Source(s),Sell Price
+,Fried Egg,Sunny-side up.,['Egg (1)'],"50 Energy, 22 Health",,,['Starter'],35g
+,Omelet,It's super fluffy.,"['Egg (1)', ' Milk (1)']","100 Energy, 45 Health",,,"['The Queen of Sauce 28 Spring,', 'Stardrop Saloon for 100g']",
+,Salad,A healthy garden salad.,"['Leek (1)', ' Dandelion (1)', ' Vinegar (1)']","113 Energy, 50 Health",,,['Emily (Mail - 3+ )'],110g
+,Cheese Cauliflower,It smells great!,"['Cauliflower (1)', ' Cheese (1)']","138 Energy, 62 Health",,,['Pam (Mail - 3+ )'],300g
+,Baked Fish,Baked fish on a bed of herbs.,"['Sunfish (1)', ' Bream (1)', ' Wheat Flour (1)']","75 Energy, 33 Health",,,"['The Queen of Sauce 7 Summer,']",
+,Parsnip Soup,It's fresh and hearty.,"['Parsnip (1)', ' Milk (1)', ' Vinegar (1)']","85 Energy, 38 Health",,,['Caroline (Mail -                    3+ )'],120g
+,Vegetable Medley,This is very nutritious.,"['Tomato (1)', ' Beet (1)']","165 Energy, 74 Health",,,['Caroline (Mail -                    7+ )'],120g
+,Complete Breakfast,You'll feel ready to take on the world!,"['Fried Egg (1)', ' Milk (1)', ' Hashbrowns (1)', ' Pancakes (1)']","200 Energy, 90 Health","['Farming (+2)', ' Max Energy (+50)']",7m,"['The Queen of Sauce 21 Spring,']",
+,Fried Calamari,It's so chewy.,"['Squid (1)', ' Wheat Flour (1)', ' Oil (1)']","80 Energy, 36 Health",,,['Jodi (Mail - 3+ )'],150g
+,Strange Bun,What's inside?,"['Wheat Flour (1)', ' Periwinkle (1)', ' Void Mayonnaise (1)']","100 Energy, 45 Health",,,['Shane (Mail - 7+ )'],225g
+,Lucky Lunch,A special little meal.,"['Sea Cucumber (1)', ' Tortilla (1)', ' Blue Jazz (1)']","100 Energy, 45 Health",['Luck (+3)'],11m 11s,"['The Queen of Sauce 28 Spring,']",
+,Fried Mushroom,Earthy and aromatic.,"['Common Mushroom (1)', ' Morel (1)', ' Oil (1)']","135 Energy, 60 Health",['Attack (+2)'],7m,['Demetrius (Mail - 3+ )'],200g
+,Pizza,It's popular for all the right reasons.,"['Wheat Flour (1)', ' Tomato (1)', ' Cheese (1)']","150 Energy, 67 Health",,,"['The Queen of Sauce 7 Spring,', 'Stardrop Saloon for 150g']",
+,Bean Hotpot,It sure is healthy.,['Green Bean (2)'],"125 Energy, 56 Health","['Max Energy (+30)', ' Magnetism (+32)']",7m,['Clint (Mail - 7+ )'],100g
+,Glazed Yams,Sweet and satisfying... The sugar gives it a hint of caramel.,"['Yam (1)', ' Sugar (1)']","200 Energy, 90 Health",,,"['The Queen of Sauce 21 Fall,']",
+,Carp Surprise,It's bland and oily.,['Carp (4)'],"90 Energy, 40 Health",,,"['The Queen of Sauce 7 Summer,']",
+,Hashbrowns,Crispy and golden-brown!,"['Potato (1)', ' Oil (1)']","90 Energy, 40 Health",['Farming (+1)'],5m 35s,"['The Queen of Sauce 14 Spring,', 'Stardrop Saloon for 50g']",
+,Pancakes,"A double stack of fluffy, soft pancakes.","['Wheat Flour (1)', ' Egg (1)']","90 Energy, 40 Health",['Foraging (+2)'],11m 11s,"['The Queen of Sauce 14 Summer,', 'Stardrop Saloon for 100g']",
+,Salmon Dinner,The lemon spritz makes it special.,"['Salmon (1)', ' Amaranth (1)', ' Kale (1)']","125 Energy, 56 Health",,,['Gus (Mail - 3+ )'],300g
+,Fish Taco,It smells delicious.,"['Tuna (1)', ' Tortilla (1)', ' Red Cabbage (1)', ' Mayonnaise (1)']","165 Energy, 74 Health",['Fishing (+2)'],7m,['Linus (Mail - 7+ )'],500g
+,Crispy Bass,"Wow, the breading is perfect.","['Largemouth Bass (1)', ' Wheat Flour (1)', ' Oil (1)']","90 Energy, 40 Health",['Magnetism (+64)'],7m,['Kent (Mail - 3+ )'],150g
+,Pepper Poppers,Spicy breaded peppers filled with cheese.,"['Hot Pepper (1)', ' Cheese (1)']","130 Energy, 58 Health","['Farming (+2)', ' Speed (+1)']",7m,['Shane (Mail - 3+ )'],200g
+,Bread,A crusty baguette.,['Wheat Flour (1)'],"50 Energy, 22 Health",,,"['The Queen of Sauce 28 Summer,', 'Stardrop Saloon for 100g']",
+,Tom Kha Soup,These flavors are incredible!,"['Coconut (1)', ' Shrimp (1)', ' Common Mushroom (1)']","175 Energy, 78 Health","['Farming (+2)', ' Max Energy (+30)']",7m,['Sandy (Mail - 7+ )'],250g
+,Trout Soup,Pretty salty.,"['Rainbow Trout (1)', ' Green Algae (1)']","100 Energy, 45 Health",['Fishing (+1)'],4m 39s,"['The Queen of Sauce 14 Fall,']",
+,Chocolate Cake,Rich and moist with a thick fudge icing.,"['Wheat Flour (1)', ' Sugar (1)', ' Egg (1)']","150 Energy, 67 Health",,,"['The Queen of Sauce 14 Winter,']",
+,Pink Cake,There's little heart candies on top.,"['Melon (1)', ' Wheat Flour (1)', ' Sugar (1)', ' Egg (1)']","250 Energy, 112 Health",,,"['The Queen of Sauce 21 Summer,']",
+,Rhubarb Pie,"Mmm, tangy and sweet!","['Rhubarb (1)', ' Wheat Flour (1)', ' Sugar (1)']","215 Energy, 96 Health",,,['Marnie (Mail - 7+ )'],400g
+,Cookie,Very chewy.,"['Wheat Flour (1)', ' Sugar (1)', ' Egg (1)']","90 Energy, 40 Health",,,['Evelyn (4-heart event)'],140g
+,Spaghetti,An old favorite.,"['Wheat Flour (1)', ' Tomato (1)']","75 Energy, 33 Health",,,['Lewis (Mail - 3+ )'],120g
+,Fried Eel,Greasy but flavorful.,"['Eel (1)', ' Oil (1)']","75 Energy, 33 Health",['Luck (+1)'],7m,['George (Mail - 3+ )'],120g
+,Spicy Eel,It's really spicy! Be careful.,"['Eel (1)', ' Hot Pepper (1)']","115 Energy, 51 Health","['Luck (+1)', ' Speed (+1)']",7m,['George (Mail - 7+ )'],175g
+,Sashimi,Raw fish sliced into thin pieces.,['Any Fish (1)'],"75 Energy, 33 Health",,,['Linus (Mail - 3+ )'],75g
+,Maki Roll,Fish and rice wrapped in seaweed.,"['Any Fish (1)', ' Seaweed (1)', ' Rice (1)']","100 Energy, 45 Health",,,"['The Queen of Sauce 21 Summer,', 'Stardrop Saloon for 300g']",
+,Tortilla,Can be used as a vessel for food or eaten by itself.,['Corn (1)'],"50 Energy, 22 Health",,,"['The Queen of Sauce 7 Fall,', 'Stardrop Saloon for 100g']",
+,Red Plate,Full of antioxidants.,"['Red Cabbage (1)', ' Radish (1)']","240 Energy, 108 Health",['Max Energy (+50)'],3m 30s,['Emily (Mail - 7+ )'],400g
+,Eggplant Parmesan,"Tangy, cheesy, and wonderful.","['Eggplant (1)', ' Tomato (1)']","175 Energy, 78 Health","['Mining (+1)', ' Defense (+3)']",4m 39s,['Lewis (Mail - 7+ )'],200g
+,Rice Pudding,"It's creamy, sweet, and fun to eat.","['Milk (1)', ' Sugar (1)', ' Rice (1)']","115 Energy, 51 Health",,,['Evelyn (Mail - 7+ )'],260g
+,Ice Cream,It's hard to find someone who doesn't like this.,"['Milk (1)', ' Sugar (1)']","100 Energy, 45 Health",,,['Jodi (Mail - 7+ )'],120g
+,Blueberry Tart,It's subtle and refreshing.,"['Blueberry (1)', ' Wheat Flour (1)', ' Sugar (1)', ' Egg (1)']","125 Energy, 56 Health",,,['Pierre (Mail - 3+ )'],150g
+,Autumn's Bounty,A taste of the season.,"['Yam (1)', ' Pumpkin (1)']","220 Energy, 99 Health","['Foraging (+2)', ' Defense (+2)']",7m 41s,['Demetrius (Mail - 7+ )'],350g
+,Pumpkin Soup,A seasonal favorite.,"['Pumpkin (1)', ' Milk (1)']","200 Energy, 90 Health","['Defense (+2)', ' Luck (+2)']",7m 41s,['Robin (Mail - 7+ )'],300g
+,Super Meal,It's a really energizing meal.,"['Bok Choy (1)', ' Cranberries (1)', ' Artichoke (1)']","160 Energy, 72 Health","['Max Energy (+40)', ' Speed (+1)']",3m 30s,['Kent (Mail - 7+ )'],220g
+,Cranberry Sauce,A festive treat.,"['Cranberries (1)', ' Sugar (1)']","125 Energy, 56 Health",['Mining (+2)'],3m 30s,['Gus (Mail - 7+ )'],120g
+,Stuffing,Ahh... the smell of warm bread and sage.,"['Bread (1)', ' Cranberries (1)', ' Hazelnut (1)']","170 Energy, 76 Health",['Defense (+2)'],5m 35s,['Pam (Mail - 7+ )'],165g
+,Farmer's Lunch,This'll keep you going.,"['Omelet (1)', ' Parsnip (1)']","200 Energy, 90 Health",['Farming (+3)'],5m 35s,['Farming Level 3'],150g
+,Survival Burger,A convenient snack for the explorer.,"['Bread (1)', ' Cave Carrot (1)', ' Eggplant (1)']","125 Energy, 56 Health",['Foraging (+3)'],5m 35s,['Foraging Level 8'],180g
+,Dish O' The Sea,This'll keep you warm in the cold sea air.,"['Sardine (2)', ' Hashbrowns (1)']","150 Energy, 67 Health",['Fishing (+3)'],5m 35s,['Fishing Level 3'],220g
+,Miner's Treat,This should keep your energy up.,"['Cave Carrot (2)', ' Sugar (1)', ' Milk (1)']","125 Energy, 56 Health","['Mining (+3)', ' Magnetism (+32)']",5m 35s,['Mining Level 3'],200g
+,Roots Platter,This'll get you digging for more.,"['Cave Carrot (1)', ' Winter Root (1)']","125 Energy, 56 Health",['Attack (+3)'],5m 35s,['Combat Level 3'],100g
+,Triple Shot Espresso,It's more potent than regular coffee!,['Coffee (3)'],"8 Energy, 3 Health",['Speed (+1)'],4m 12s,"['Stardrop Saloon for 5,000g']",450g
+,Seafoam Pudding,This briny pudding will really get you into the maritime mindset!,"['Flounder (1)', ' Midnight Carp (1)', ' Squid Ink (1)']","175 Energy, 78 Health",['Fishing (+4)'],3m 30s,['Fishing (Level 9)'],300g
+,Algae Soup,It's a little slimy.,['Green Algae (4)'],"75 Energy, 33 Health",,,['Clint (Mail - 3+ )'],100g
+,Pale Broth,A delicate broth with a hint of sulfur.,['White Algae (2)'],"125 Energy, 56 Health",,,['Marnie (Mail - 3+ )'],150g
+,Plum Pudding,A traditional holiday treat.,"['Wild Plum (2)', ' Wheat Flour (1)', ' Sugar (1)']","175 Energy, 78 Health",,,"['The Queen of Sauce 7 Winter,']",
+,Artichoke Dip,It's cool and refreshing.,"['Artichoke (1)', ' Milk (1)']","100 Energy, 45 Health",,,"['The Queen of Sauce 28 Fall,']",
+,Stir Fry,Julienned vegetables on a bed of rice.,"['Cave Carrot (1)', ' Common Mushroom (1)', ' Kale (1)', ' Oil (1)']","200 Energy, 90 Health",,,"['The Queen of Sauce 7 Spring,']",
+,Roasted Hazelnuts,The roasting process creates a rich forest flavor.,['Hazelnut (3)'],"175 Energy, 78 Health",,,"['The Queen of Sauce 28 Summer,']",
+,Pumpkin Pie,Silky pumpkin cream in a flaky crust.,"['Pumpkin (1)', ' Wheat Flour (1)', ' Milk (1)', ' Sugar (1)']","225 Energy, 101 Health",,,"['The Queen of Sauce 21 Winter,']",
+,Radish Salad,The radishes are so crisp!,"['Oil (1)', ' Vinegar (1)', ' Radish (1)']","200 Energy, 90 Health",,,"['The Queen of Sauce 21 Spring,']",
+,Fruit Salad,A delicious combination of summer fruits.,"['Blueberry (1)', ' Melon (1)', ' Apricot (1)']","263 Energy, 118 Health",,,"['The Queen of Sauce 7 Fall,']",
+,Blackberry Cobbler,There's nothing quite like it.,"['Blackberry (2)', ' Sugar (1)', ' Wheat Flour (1)']","175 Energy, 78 Health",,,"['The Queen of Sauce 14 Fall,']",
+,Cranberry Candy,It's sweet enough to mask the bitter fruit.,"['Cranberries (1)', ' Apple (1)', ' Sugar (1)']","125 Energy, 56 Health",,,"['The Queen of Sauce 28 Winter,']",
+,Bruschetta,Roasted tomatoes on a crisp white bread.,"['Bread (1)', ' Oil (1)', ' Tomato (1)']","113 Energy, 50 Health",,,"['The Queen of Sauce 21 Winter,']",
+,Coleslaw,"It's light, fresh and very healthy.","['Red Cabbage (1)', ' Vinegar (1)', ' Mayonnaise (1)']","213 Energy, 95 Health",,,"['The Queen of Sauce 14 Spring,']",
+,Fiddlehead Risotto,A creamy rice dish served with sauteed fern heads. It's a little bland.,"['Oil (1)', ' Fiddlehead Fern (1)', ' Garlic (1)']","225 Energy, 101 Health",,,"['The Queen of Sauce 28 Fall,']",
+,Poppyseed Muffin,It has a soothing effect.,"['Poppy (1)', ' Wheat Flour (1)', ' Sugar (1)']","150 Energy, 67 Health",,,"['The Queen of Sauce 7 Winter,']",
+,Chowder,A perfect way to warm yourself after a cold night at sea.,"['Clam (1)', ' Milk (1)']","225 Energy, 101 Health",['Fishing (+1)'],16m 47s,['Willy (Mail - 3+ )'],135g
+,Fish Stew,"It smells a lot like the sea. Tastes better, though.","['Crayfish (1)', ' Mussel (1)', ' Periwinkle (1)', ' Tomato (1)']","225 Energy, 101 Health",['Fishing (+3)'],16m 47s,['Willy (Mail - 7+ )'],175g
+,Escargot,Butter-soaked snails cooked to perfection.,"['Snail (1)', ' Garlic (1)']","225 Energy, 101 Health",['Fishing (+2)'],16m 47s,['Willy (Mail - 5+ )'],125g
+,Lobster Bisque,This delicate soup is a secret family recipe of Willy's.,"['Lobster (1)', ' Milk (1)']","225 Energy, 101 Health","['Fishing (+3)', ' Max Energy (+50)']",16m 47s,"['The Queen of Sauce 14 Winter,', 'Willy (Mail - 9+ )']",
+,Maple Bar,It's a sweet doughnut topped with a rich maple glaze.,"['Maple Syrup (1)', ' Sugar (1)', ' Wheat Flour (1)']","225 Energy, 101 Health","['Farming (+1)', ' Fishing (+1)', ' Mining (+1)']",16m 47s,"['The Queen of Sauce 14 Summer,']",
+,Crab Cakes,"Crab, bread crumbs, and egg formed into patties then fried to a golden brown.","['Crab (1)', ' Wheat Flour (1)', ' Egg (1)', ' Oil (1)']","225 Energy, 101 Health","['Speed (+1)', ' Defense (+1)']",16m 47s,"['The Queen of Sauce 21 Fall,']",
+,Shrimp Cocktail,A sumptuous appetizer made with freshly-caught shrimp.,"['Tomato (1)', ' Shrimp (1)', ' Wild Horseradish (1)']","225 Energy, 101 Health","['Fishing (+1)', ' Luck (+1)']",10m 2s,"['The Queen of Sauce 28 Winter,']",
+,Ginger Ale,A zesty soda known for its soothing effect on the stomach.,"['Ginger (3)', ' Sugar (1)']","63 Energy, 28 Health",['Luck (+1)'],5m,"['Dwarf Shop in Volcano Dungeon for 1,000g']",200g
+,Banana Pudding,A creamy dessert with a wonderful tropical flavor.,"['Banana (1)', ' Milk (1)', ' (Any) Sugar (1)']","125 Energy, 56 Health","['Mining (+1)', ' Luck (+1)', ' Defense (+1)']",5m 1s,['Island Trader for  Bone Fragment (30)'],260g
+,Mango Sticky Rice,Sweet mango and coconut transforms this rice into something very special.,"['Mango (1)', ' Coconut (1)', ' Rice (1)']","113 Energy, 50 Health",['Defense (+3)'],5m 1s,['Leo (Mail - 7+ )'],250g
+,Poi,"A traditional food with a delicate, sweet flavor when eaten fresh.",['Taro Root (4)'],"75 Energy, 33 Health",,,['Leo (Mail - 3+ )'],400g
+,Tropical Curry,"An exotic, fragrant curry served in a pineapple bowl.","['Coconut (1)', ' Pineapple (1)', ' Hot Pepper (1)']","150 Energy, 67 Health",['Foraging (+4)'],5m 1s,"['Ginger Island Resort for 2,000g']",500g
+,Squid Ink Ravioli,Temporarily protects from debuffs.,"['Squid Ink (1)', ' Wheat Flour (1)', ' Tomato (1)']","125 Energy, 56 Health",['Mining (+1)'],4m 39s (Mining) 2m 59s (Squid Ink Ravioli Buff),['Combat Level 9'],150g
+,Moss Soup,"It's thick and slimy, but edible.",['Moss (20)'],"70 Energy, 31 Health",,,['Foraging Level 3'],80g
