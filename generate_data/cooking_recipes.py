@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import pandas as pd
 from bs4 import BeautifulSoup
 import re
@@ -6,8 +8,8 @@ pd.set_option("display.max_rows", None)
 pd.set_option("display.max_columns", None)
 pd.set_option("display.width", None)
 
+
 def get_recipes():
-    file = "html/recipes.html"
     empty_df = pd.DataFrame(
         columns=[
             "Image",
@@ -23,7 +25,9 @@ def get_recipes():
     )
 
     try:
-        with open(file, "r", encoding="utf-8") as file:
+        # with open("html/recipes.html", "r", encoding="utf-8") as file:
+        BASE_DIR = Path(__file__).resolve().parent
+        with open(Path(__file__).resolve().parents[1] / "html" / "recipes.html", encoding="utf-8") as file:
             html = file.read()
 
         soup = BeautifulSoup(html, "html.parser")
@@ -36,8 +40,6 @@ def get_recipes():
         columns = []
         for col in rawColumns:
             col = col.replace("\n", "").replace("\xa0", " ").strip()
-            # col = col.replace("\xa0", " ")
-            # col = col.strip()
             columns.append(col)
 
         # Get rows
@@ -84,31 +86,47 @@ def get_recipes():
 
             recipeSources = row[7]
             recipeText = re.sub(r"([a-zA-Z])(\d)", r"\1 \2", row[7])
-            recipeSources = re.split(r"Year \d+\s*", recipeText, maxsplit=1)
-            recipeSources = [item.strip() for item in recipeSources if item.strip()]
-            for i, recipe in enumerate(recipeSources):
-                if "data-sort-value" in recipe:
-                    recipeSources[i] = re.sub(r'data-sort-value="[^"]*">', "", recipe)
-            
-            
-            # # fix missing space between letters and numbers
-            # recipeText = re.sub(r'([a-zA-Z])(\d)', r'\1 \2', row[7])
-            # # split after the year
-            # recipeSources = re.split(r'Year \d+\s*', recipeText, maxsplit=1)
+            recipeText = (list(recipeSources.split('\n')))
+            # print(recipeSources)
+            # recipeSources = re.split(r"Year \d+\s*", recipeText, maxsplit=1)
             # recipeSources = [item.strip() for item in recipeSources if item.strip()]
-            # # remove all data-sort-value variants
             # for i, recipe in enumerate(recipeSources):
-            #     recipeSources[i] = re.sub(
-            #         r'data-sort-value="+[^"]*"+>', 
-            #         '', 
-            #         recipe
-            #     )
-            
-            
-            
-            
-            
-            
+            #     if "data-sort-value" in recipe:
+            #         recipeSources[i] = re.sub(r'data-sort-value="[^"]*">', "", recipe)
+            # print(recipeSources)
+
+            for i, source in enumerate(recipeText):
+                if '(Mail -' in source:
+                    txt = source.split('(Mail -')
+                    playerName = txt[0][:-1]
+                    lvl = int(txt[1].split('+')[0][1:])
+                    recipeText[i] = playerName + ' ' + str(lvl) + '\u2665'
+
+                elif 'The Queen of Sauce' in source:
+                    txt = ''
+                    tvDate = ''
+                    saloonPrice = ''
+                    if 'Stardrop Saloon' not in source:
+                        tvDate = source.replace('The Queen of Sauce', 'TV: ').replace(', ', ' ')
+                    else:
+                        saloonPrice = 'Stardrop Saloon: ' + source.split('Stardrop Saloon')[1].split('">')[1]
+                    txt += f'{tvDate}, {saloonPrice}'
+                    recipeText[i] = txt  # ← assign back
+
+                elif 'Ginger Island Resort' in source:
+                    recipeText[i] = 'Ginger Island Resort: 2000g'
+                elif 'Stardrop Saloon' in source:
+                    recipeText[i] = 'Stardrop Saloon: ' + source.split('Stardrop Saloon')[1].split('">')[1]
+                elif 'Dwarf Shop' in source:
+                    recipeText[i] = 'Dwarf Shop: ' + source.split('Dwarf Shop')[1].split('">')[1]
+
+
+
+            # recipeText_cleaned = [s.strip() for s in recipeText if s.strip() != '']
+            # recipeText_cleaned = [s[2:] for s in recipeText_cleaned if s.startswith(', ') ]
+            recipeText_cleaned = [s.lstrip(',').rstrip(',').strip() for s in recipeText if s.strip() != '']
+            recipeText_str = ', '.join(recipeText_cleaned)
+
 
             sellPrice = row[8]
             sellPrice = re.sub(r'data-sort-value="[^"]*">', "", sellPrice)
@@ -121,19 +139,15 @@ def get_recipes():
                 energyAndHealth,
                 buffs,
                 buffDuration,
-                recipeSources,
+                recipeText_str,
                 sellPrice,
             ]
+            # print(data)
 
             cleanedRows.append(data)
 
-            # print(
-            #     f'name: {name}\ndescription: {description}\ningredients: {ingredients}\nenergyAndHealth: {energyAndHealth}\nbuffs: {buffs}\nbuffDuration: {buffDuration}\nrecipeSources: {recipeSources}\nsellPrice: {sellPrice}\n{"*" * 50}'
-            # )
-
-        # df = pd.DataFrame(cleanedRows, columns=[str(col) for col in data])
         df = pd.DataFrame(cleanedRows, columns=columns)
-        df.to_csv("data\\recipes.csv", index=False)
+        df.to_csv(Path(__file__).resolve().parents[1] / "data" / "recipes.csv", index=False)
         return df
 
     except FileNotFoundError:
@@ -147,4 +161,5 @@ def get_recipes():
         return empty_df
 
 
-print(get_recipes())
+# print(get_recipes())
+get_recipes()
